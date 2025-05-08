@@ -1,0 +1,151 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Pro Display', sans-serif; 
+    min-height: 100vh;                                     
+}
+
+body{
+    background-color: #f2f4f7;
+  
+}
+
+.logo{
+    margin: 10px;
+    width: 580px;
+    padding: 0 32px 0 0;
+}
+
+
+.formulario{
+    margin: 10px;
+    background-color: #ffffff;
+    padding-bottom:  24px;
+    padding-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+    width: 400px;
+}
+
+input{
+    font-size: 20px;
+    padding: 14px 16px;
+    width: 330px;
+    margin: 6px 0px;
+    border-radius: 6px;
+}
+
+.formulario .campos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linha .info{
+    width: 400px;
+    text-align: center;
+}
+
+.principal{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 112px;
+    padding-top:72px;
+    justify-content: center;
+}
+
+.paises{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+ 
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.paises li{
+    padding-right: 10px;
+    list-style: none;
+}
+
+.utilitarios{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.utilitarios li{
+    padding-right: 20px;
+}
+
+.logo img{
+    height: 106px;
+    margin-left: -25px;
+}
+
+#btn-entrar{
+    font-size: 20px;
+    font-weight: bold; /*negrito*/
+    border: none;
+    border-radius: 6px;
+    padding: 14px 16px;
+    width: 365px;
+    background-color: #0866ff;
+    color: #ffffff;
+    margin: 8px 0;
+}
+
+#btn-criar{
+background-color: #42b72a;
+font-weight: bold; /*negrito*/
+border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 220px;
+    color: #ffffff;
+}
+
+
+.rodape{
+    background-color: #ffffff;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-rdp{
+    width: 980px;
+    color: #8a8d91;
+    font-size: 12px;
+
+}
+
+.conteudo-rdp a{
+    color: #8a8d91;
+    font-size: 12px;
+
+}
+
+.logo p{
+    font-size: 28px;
+    font-weight: normal;
+    margin: 0;
+}
+
+#hr-form{
+    margin: 20px  16px;
+    width: 300px;
+}
+
